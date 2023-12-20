@@ -15,11 +15,12 @@ import {
   Input,
   Textarea,
 } from "@chakra-ui/react";
-import ReactImageZoom from "react-image-zoom";
 import React, { useEffect, useState } from "react";
 import style from "@/styles/productDetails.module.scss";
+import 'react-inner-image-zoom/lib/InnerImageZoom/styles.css';
+import 'react-inner-image-zoom/lib/InnerImageZoom/styles.min.css';
+import InnerImageZoom from 'react-inner-image-zoom';
 import { FaChevronDown } from "react-icons/fa";
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { BsCart3 } from "react-icons/bs";
 import { products } from "@/Components/productsArray";
 
@@ -38,17 +39,7 @@ const Product_show_component = ({ params }) => {
           <FaChevronDown />
         </div>
         <div className={style.body}>
-          <div className={style.left}>
-            <ReactImageZoom
-              {...{
-                img: `${productDetail.largeImageLink}`,
-                // width: 400,
-                zoomPosition: "original",
-                zoomWidth: 600,
-                // height: 300,
-              }}
-            />
-          </div>
+       <InnerImageZoom src={productDetail.imageLink} zoomSrc={productDetail.largeImageLink} />
           <div className={style.right}>
             <h2>{productDetail.productName}</h2>
             <p>
