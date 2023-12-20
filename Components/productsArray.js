@@ -4,7 +4,7 @@ export const products = [
     productName: "C1 Des 2 Col 5",
     price: "$99.89",
     imageLink: "https://lh3.googleusercontent.com/pw/ABLVV847a-MT9yqt3_GrzTgdNj3xIkoIjbxhsP30yOoSEMv_1AAFHHM1ZZBUuYrDutlqnJ9SrNkGGzP8Ns-ywcKjKi7t6rKw9KL_In78Y5JKrPJE7xGZdwui_qwT_ssSYn_8tlqJ0tIUE_pEz5iW3DJaOtGQ=w1320-h831-s-no-gm?authuser=0",
-    largeImageLink: "https://lh3.googleusercontent.com/pw/ABLVV868BwTUi58q_dmrT249dIFxVu-rZH7jbIqk2XDaRVrX0N6dFo61-jslM11MExKU8rpv3_5Zg6H8El0Gwp4FyWB06yoq6lQl77cSoORjWiZFpBbfEpsIqKSWENnT1OrvyZu0IomhV_mz2Nqe1xr56ktw=w646-h407-s-no-gm?authuser=0",
+    largeImageLink: "https://lh3.googleusercontent.com/pw/ABLVV847a-MT9yqt3_GrzTgdNj3xIkoIjbxhsP30yOoSEMv_1AAFHHM1ZZBUuYrDutlqnJ9SrNkGGzP8Ns-ywcKjKi7t6rKw9KL_In78Y5JKrPJE7xGZdwui_qwT_ssSYn_8tlqJ0tIUE_pEz5iW3DJaOtGQ=w1320-h831-s-no-gm?authuser=0",
   },
   {
     _id: "_ihztrt4p7",
