@@ -17,8 +17,8 @@ import {
 } from "@chakra-ui/react";
 import React, { useEffect, useState } from "react";
 import style from "@/styles/productDetails.module.scss";
-import "react-inner-image-zoom/lib/InnerImageZoom/styles.css";
-import "react-inner-image-zoom/lib/InnerImageZoom/styles.min.css";
+// import "react-inner-image-zoom/lib/InnerImageZoom/styles.css";
+// import "react-inner-image-zoom/lib/InnerImageZoom/styles.min.css";
 import InnerImageZoom from "react-inner-image-zoom";
 import { FaChevronDown } from "react-icons/fa";
 import { BsCart3 } from "react-icons/bs";
