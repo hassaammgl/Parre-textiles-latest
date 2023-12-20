@@ -41,7 +41,6 @@ const Product_show_component = ({ params }) => {
         <div className={style.body}>
        <InnerImageZoom src={productDetail.imageLink} zoomSrc={productDetail.largeImageLink} />
           <div className={style.right}>
-            <h2>{productDetail.productName}</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
               nisi laboriosam suscipit rem quisquam quae culpa. Animi libero vel
