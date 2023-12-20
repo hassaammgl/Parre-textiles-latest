@@ -39,8 +39,9 @@ const ProductsPage = () => {
           ))}
         </div>
       </div>
-      <button onClick={handleClick}>Show more</button>
-    </div>
+<div className={style.btn} >
+        <button onClick={handleClick}>Show more</button>
+      </div>    </div>
   );
 };
 
